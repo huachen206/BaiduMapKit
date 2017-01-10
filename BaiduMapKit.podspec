@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = "a Fork of BaiduMapKit"
   s.homepage     = "https://github.com/huachen206/BaiduMapKit.git"
   s.author             = { "HuaChen" => "huachen206@163.com" }
-  s.source       = { :git => "/Users/huachen/Desktop/BaiduMapKit", :tag => s.version }
+  s.source       = { :git => "https://github.com/huachen206/BaiduMapKit.git", :tag => s.version }
 
   s.description  = <<-DESC
                    * Think: Why did you write this? What is the focus? What does it do?
