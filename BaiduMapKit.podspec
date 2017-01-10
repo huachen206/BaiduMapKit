@@ -20,19 +20,9 @@ s.resources = "BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
 s.vendored_frameworks = "BaiduMapKit/*.framework"
 
 s.vendored_libraries = "BaiduMapKit/thirdlibs/*.a"
-s.frameworks = [
-    "CoreLocation",
-    "QuartzCore",
-    "OpenGLES",
-    "SystemConfiguration",
-    "CoreGraphics",
-    "Security",
-    "CoreTelephony"
-  ],
-  s.libraries = [
-    "sqlite3.0",
-    "stdc++.6.0.9"
-  ]
+s.frameworks = "CoreLocation","QuartzCore","OpenGLES","SystemConfiguration","CoreGraphics","Security","CoreTelephony"
+  
+  s.libraries = "sqlite3.0","stdc++.6.0.9"
   s.requires_arc = true
 end
 
